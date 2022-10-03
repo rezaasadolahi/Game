@@ -1,0 +1,41 @@
+
+* {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(240, 242, 245, 0.87);
+    margin-top: 0.2rem;
+    overflow-y: hidden;
+}
+
+.btn-weapon {
+    font-size: 1.3rem;
+}
+
+.btn-start {
+    font-size: 1.7rem;
+    position: relative;
+    top: 4.3rem;
+    width: 10%;
+}
+
+.buttons-player {
+    position: relative;
+    top: 2.5em;
+    right: 11.7rem;
+}
+
+.playerImage:nth-child(2) {
+    transform: scaleX(-1);
+}
+
+.status-game {
+    padding: 0.3rem;
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 1.5rem;
+}
